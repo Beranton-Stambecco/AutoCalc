@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kostenvergleich</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Kostenvergleich</h1>
+
+    <label>Dieselverbrauch (l/100 km)</label>
+    <input type="number" id="dieselVerbrauch" step="0.1">
+
+    <label>Dieselpreis (€/l)</label>
+    <input type="number" id="dieselPreis" step="0.01">
+
+    <label>Stromverbrauch (kWh/100 km)</label>
+    <input type="number" id="stromVerbrauch" step="0.1">
+
+    <label>Strompreis (€/kWh)</label>
+    <input type="number" id="stromPreis" step="0.01">
+
+    <button onclick="berechnen()">Berechnen</button>
+
+    <div class="results">
+      <p>Dieselkosten je 100 km: <span id="dieselKosten">-</span></p>
+      <p>Stromkosten je 100 km: <span id="stromKosten">-</span></p>
+      <p>Äquivalenzpreis Strom: <span id="aeqStrom">-</span></p>
+      <p>Äquivalenzpreis Diesel: <span id="aeqDiesel">-</span></p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
