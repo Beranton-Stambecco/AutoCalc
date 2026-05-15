@@ -1,0 +1,2 @@
+# AutoCalc
+Die App berechnet die Kosten je Kilometer bei Diesel- und ElektroßFahrzeig sowie den Äqivivalenzpreis Diesel bzw. Strom. Eingabegrößen: Verbrauch und Preis
